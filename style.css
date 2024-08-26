@@ -23,12 +23,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
-    border: 1px solid white;
     border-radius: 10px;
     background-color: white;
     margin-top: 64px;
     position: relative;
-
+    background: rgb(89,89,89);
+    background: linear-gradient(313deg, rgba(89,89,89,0.5018382352941176) 100%, rgba(122,122,122,1) 100%);
 }
 
 .input-fname,
@@ -51,17 +51,14 @@ input{
     border: 1px solid #00c9e0 ;
     font-size: 18px;
     outline: none;
+
 }
 label{
     margin-bottom: .25rem;
+    color: white;
 }
 
 
-.invalid {
-    color: red;
-    font-size: 10px;
-    display: none;
-}
 
 button
 {
@@ -80,6 +77,6 @@ button
 .invalid
 {
     color: red;
-    font-size: 13px;
+    font-size: 15px;
     display: none;
 }
